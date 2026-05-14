@@ -1254,3 +1254,18 @@ Using Flat Repodata for pkgs/r/linux-64                                         
 ⚠ Shard Index for pkgs/r/noarch not available, falling back to flat repodata
 Using Flat Repodata for pkgs/r/noarch                                                           ✔ Starting
 Using Flat Repodata for pkgs/r/noarch                                                     ✔ Done (0.3 sec)
+Fetch Shard Index for conda-forge/linux-64                                                      ⧖ Starting
+Fetch Shard Index for conda-forge/linux-64                                                ✔ Done (0.1 sec)
+Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting
+Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (0.1 sec)
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+warning  libmamba Failed to parse field 'noarch' (msgpack type=1) in shard package record for 'tensorboard-2.1.1-py38_0.tar.bz2': Expected STR or BIN type for string conversion. This field will be ignored.
+Fetching and Parsing Packages' Shards                                                    ✔ Done (41.8 sec)
+Using Cached Shard Index for conda-forge/linux-64                                                   ✔ Done
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+warning  libmamba Failed to parse field 'noarch' (msgpack type=1) in shard package record for 'tensorboard-2.1.1-py38_0.tar.bz2': Expected STR or BIN type for string conversion. This field will be ignored.
+Fetching and Parsing Packages' Shards                                                     ✔ Done (1.5 sec)
+Parsing Packages' Records                                                              ✔ Done (1347.4 sec)
+
+Resolving Environment                                                                           ⧖ Starting
