@@ -2,31 +2,40 @@ name: bioinfo
 channels:
   - conda-forge
   - bioconda
+  - defaults
 dependencies:
+  # Core
   - python=3.11
-  - seqkit
-  - fastqc=0.12.1
-  - multiqc
-  - fastp
-  - trimmomatic
-  - spades
-  - quast
-  - busco
-  - prokka
-  - bwa-mem2
-  - bowtie2
-  - samtools=1.21
+  - samtools>=1.20
   - bcftools
-  - stacks
-  - vcftools
+  - seqkit
+  - fastqc
+  - trimmomatic
+  # Montagem e QC
+  - spades
+  - multiqc
   - entrez-direct
   - sra-tools
-  - r-base=4.4.1
+  # Mapeamento
+  - minimap2
+  - bwa-mem2
+  - bowtie2
+  - busco
+  # Populações
+  - stacks
+  - vcftools
+  # R
+  - r-base>=4.3,<4.5
   - r-tidyverse
   - r-ggplot2
   - r-vegan
   - r-adegenet
   - r-ape
+  # Utilitários
   - wget
   - curl
   - tree
+  - pip
+  - pip:
+    - quast
+    - InSilicoSeq
